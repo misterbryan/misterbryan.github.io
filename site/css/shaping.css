@@ -1,0 +1,425 @@
+
+
+
+
+h4.alert-heading {
+    display: none;
+}
+img {
+    margin-right: 0.4rem;
+}
+dialog, .reveal-modal {
+    width: 95vw;
+}
+.modalBoxTiny {
+    margin-top: 150px;
+    height: 100px;   
+    min-height: 10vh
+}
+dialog .close-reveal-modal, .reveal-modal .close-reveal-modal  {
+    font-size: 1.5rem;
+}
+.alert-box {
+    font-size: 0.849rem;
+    text-align: center;
+}
+table tr.even, table tr.alt, table tr:nth-of-type(even) {
+    background: #F6F6F6; 
+}
+.has-tip {
+    border-bottom: none;
+    cursor: pointer;
+    font-weight: normal;
+    color: #333;
+}
+.has-tip:hover, .has-tip:focus {
+    border-bottom: none;
+    color: #333;
+}
+.item_liste {
+    font-style: italic;
+    font-size: 0.96rem;
+}
+.italic {
+    font-style: italic;
+}
+.element_liste {
+    margin-bottom: 10px;
+}.margin_bottom_10px {
+    margin-bottom: 10px;
+}
+.groupe_emploi {
+    /*font-weight: bold;*/
+    /*text-decoration: underline;*/
+    font-size: 1.1rem;
+    /*font-style: italic;*/
+}
+.liste_groupes {
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+/* Double-color dashed line */
+hr.style-three {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    /*background: #999;*/
+}
+.style_index {
+    /*color: #2F90C3;*/
+    color: #10315C;
+}
+italic {
+    font-style: italic;
+}
+.description_offre_emploi {
+    padding-left: 0;
+    margin-top: 0;
+}
+.infos_offre_emploi {
+    margin: 0; 
+    color : #222222;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+.no_padding {
+    padding: 0;
+}
+.thin_padding2 {
+    padding: 0.5rem 0.5rem 0 0;
+}
+.thin_padding {
+    padding:  0 0.5rem 0 0;
+}
+.no_margin {
+    margin: 0;
+}
+.no_margin_top {
+    margin-top : 0; 
+}
+.description_offre {
+    margin-top : 0; 
+}
+.paragraphe_image_offre {
+    text-align: center;
+    /*margin-top: 2rem;*/
+}
+.image_offre {
+    max-height: 120px;
+    box-shadow: 0px 0px 2px 2px rgba(232, 232, 232, 0.75);
+}
+.titre_offre {
+    font-size: 1.229rem;
+    margin-top: 0;
+    margin-bottom: 0.2rem;
+    color: #224F99;
+}
+.titre_offre_accueil {
+    font-size: 1.1rem;
+    margin-top: 0;
+    margin-bottom: 0.2rem;
+    color: #2D528C;
+}
+.jour_offre_accueil {
+    background-color: #F0F0F0;
+    color: #4B4B4D;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.2rem;
+    border: 1px solid #E7E7E7;
+}
+.jour_offre {
+    background-color: #F0F0F0;
+    color: #4B4B4D;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    font-size: 2rem;
+    border: 1px solid #E7E7E7;
+}
+.mois_offre_accueil {
+    background-color: #430654;
+    color: whitesmoke;
+    margin: 0;
+    text-align: center;
+    padding: 5px;
+    font-size: 1rem;
+}
+.mois_offre {
+    background-color: #430654;
+    color: whitesmoke;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+li.active >a {
+    color : #6BB204;
+}
+.moninfo {
+    color: #0E8FE9;
+    /*font-weight: bold;*/
+}
+.margin_fiche_organisme {
+    margin: 10px 0 5px 0;
+}
+.margin_1rem_0_0-5rem_0 {
+    margin : 1rem 0 0.5rem 0;
+}
+.btn-group .btn {
+    /* color: #FFFFFF; */
+    font-size: 0.84rem;
+    /*font-style: italic;*/
+}
+.intl-tel-input {
+    width : 100%
+}
+.informations_indisponibles {    
+    /*color: red;*/
+    /*font-style: italic;*/
+    line-height: 1.5rem;
+    font-size: 0.90rem;
+}
+.hr_formulaire {
+    margin-top: 3rem;
+    margin-bottom: 0;
+}
+#jform_bloc_entreprise-lbl {
+    font-weight: bold;
+    font-size: 0.979rem;
+    color : #4d4d4d;
+    margin-bottom: 0;
+}
+#jform_sousbloc_entreprise-lbl {  
+    font-size: 0.949rem;
+    color: rgb(155, 155, 155);
+    margin-bottom: 1.4rem;
+    font-style: italic;
+}
+#jform_coordonnees-lbl, #jform_reseauxsociaux-lbl {
+    font-weight: bold;
+    font-size: 0.979rem;
+    margin-bottom: 1.2rem;
+    color : #4d4d4d;
+}
+.icon_actions {
+    max-height: 17px;
+    margin-right: 3px;
+    padding-bottom: 1px;
+}
+.thin_image {
+    max-height: 14px;
+    margin-right: 3px;
+    padding-bottom: 1px;
+}
+.image-title {
+    font-weight: normal;
+}
+.titre_details_profile {
+    font-size: 1rem;
+    font-weight: bold;
+}
+.img_profile {
+    box-shadow: 0px 0px 2px 2px rgba(232, 232, 232, 0.75);
+    margin : 0 1rem 1rem 0;
+    max-height: 200px;
+}
+#jform_profileplus_infosfacultatives-lbl, #jform_profileorganisme_infosfacultatives-lbl {
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px;
+    background: #A83F26;
+    box-shadow: 0px 0px 4px 4px rgba(232, 232, 232, 0.75);
+}
+input[placeholder] {
+    font-size: 0.84377rem;
+}
+textarea[placeholder] {
+    font-size: 0.85rem;
+}
+#jform_profileplus_sexe {
+    margin-top : 1px;
+}
+textarea[rows] {
+    line-height: 25px;
+}
+.profilepictureheight{
+    max-height: 55px;  
+} 
+.profilepictureboard {
+    text-align : right;
+}
+table {
+    width : 100%;
+    box-shadow: 0px 0px 2px 2px rgba(232, 232, 232, 0.75);
+}
+.bloc_detail_cv {
+    margin-bottom: 20px;
+}
+.hr_detail_cv {
+    margin: 0.25rem 0 0.5rem 0;
+}
+.details_cv_photo {
+    text-align: right;
+}
+.no_margin_bottom_vrai {
+    margin-bottom: 0;
+}
+.no_margin_bottom {
+    margin-bottom: 0;
+    font-size: 0.90rem
+}
+.photo_pro {
+    box-shadow: 0px 0px 2px 2px rgba(232, 232, 232, 0.75);
+    max-height: 150px;
+}
+.attention {
+    background-color: #E8A42E;
+}
+input[type="file"] {
+    background : #FFFFFF;
+    padding: 5px;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0px 0px 1px 1px rgba(232, 232, 232, 0.75);
+}
+.panel.erreur {
+    border-color : #FFB4A1;
+    background : #FDC7BA;
+}
+table thead, table tfoot {
+    background: #D9D9D9;
+}
+button.tiny, .button.tiny {
+    font-size: 0.7875rem;
+}
+fieldset {
+    box-shadow: 0px 0px 10px 1px rgba(232, 232, 232, 0.75);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(232, 232, 232, 0.75);
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(232, 232, 232, 0.75);
+}
+.optional{
+    font-size: 0.80rem;
+}
+input[readonly],input[readonly]:focus, input[readonly="readonly"], input[readonly="readonly"]:focus {
+    background-color: #EDECEC;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+.margin_right_0_5_rem {
+    margin-right: 0.5rem;
+}
+.titre_module {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.hr_module {
+    margin: 0.3rem 0 1rem 0;
+}
+.bloc_titre_module{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+.bloc_module_display {
+    box-shadow: 0 1px 3px rgba(0,0,0,.02);
+    background: linear-gradient(to bottom,#fefefe 2%,#f8f8f8 100%);
+    border: 1px solid #e4e4e4;
+    border-radius: 3px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+}
+.bloc_actions_user {
+    margin-bottom: 2rem;
+}
+@media only screen and (max-width: 40em) { 
+    .modalBoxTiny {
+        margin-top: 150px;
+        height: 100px;    
+    }
+    .date_publication_offre {
+        display: none
+    }
+    .image_offre {
+        max-height: 100px;
+    }
+    .display_none {
+        display: none;
+    }
+    .img_profile {
+        box-shadow: 0px 0px 2px 2px rgba(232, 232, 232, 0.75);
+        margin : 0 1rem 1rem 0;
+        max-height: 150px;
+    }
+    .profilepictureheight{
+        max-height: 150px;  
+    } 
+    .bloc_actions_user {
+        width: 40%; 
+        margin: 1rem
+    }
+    .details_cv_photo {
+        text-align: center;
+    }
+    .profilepictureboard {
+        text-align : center;
+    }
+}
+.img_actions_user {
+    border : solid 1px #E2E3E4;
+    border-radius: 50%;
+    height: 100px
+}
+.font_1_0 {
+    font-size: 1.0rem
+}
+.centre {
+    text-align : center
+}
+p {
+    font-size: 0.95rem;
+}
+
+.titre_article {
+    font-size: 1.4rem;
+    color : #008cba;
+}
+.lien_titre_article {
+    /*color: #5B5E61*/    
+}
+.derniers_articles{
+    font-size : 1.66rem;
+    font-weight: bold;
+    margin-bottom: 0.1rem
+}
+.hr_derniers_articles {
+    margin : 0 0 1.2rem;
+}
+.date_publication {
+    font-size: 0.85rem;
+    font-style: italic;
+}
+.separation_articles {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+}
+button, .button {
+    padding: 0.60rem 1rem 0.60rem 1rem;
+    font-size: 0.84rem;
+    border-radius: 3px;
+}
+@media only screen and (min-width: 64em) { 
+    .div_image_intro {
+        float: left;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+.image_intro {
+    width: 244px;
+}

@@ -1,0 +1,202 @@
+.bloc_entete  {
+    /*margin-bottom: 15px;*/
+}
+.bloc_logo_menu, .bloc_slideshow {
+    padding: 15px
+}
+.bloc_entete {
+    height:42px;
+    overflow:hidden;
+    box-shadow:0 1px 2px rgba(0,0,0,.2);
+    line-height:41px;
+    font-size: 0.8437rem;
+    color:#fff;
+}
+.bloc_logo_menu {
+    background: #FAFAFA;
+    /*box-shadow:0 10px 2px rgba(0,0,0,.2);*/
+    border-bottom : 2px solid #DEDEDE;
+}
+.bloc_navigation {
+    margin-top: 25px;
+}
+
+.bloc_slideshow {
+    /*height:  360px;  Cette valeur est à retirée (Elle a été mise simplement pour que le bloc soit visible)*/
+    background: rgb(255,255,255);
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(229,229,229,1)));
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%);
+    background: radial-gradient(ellipse at center,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=1 );
+
+    opacity: 1;
+    text-align : center;
+}
+.bloc_recherche_emploi {
+    min-height: 110px;     
+}
+.bloc_fil_ariane {
+    padding : 10px 0 10px 0;
+    border-bottom : 1px solid #e4e4e4;
+}
+.bloc_contenu_menu_droit {
+    border-top: 1px solid #e4e4e4;
+    padding: 15px 0 15px 0;
+    margin-bottom: 5rem;
+}
+.bloc_contenu {
+    /*background-color: yellow;*/
+    min-height: 40px
+}
+.bloc_menu_droit {
+    /*background-color: red;*/
+    min-height: 40px
+}
+.bloc_publicitaire {
+
+}
+.bloc_bas_page {
+    background: #F6F6F6;
+    padding:  20px 0 20px 0;
+    letter-spacing: 0.3px;
+    /*    word-spacing: 2px;
+        font-size: 0.95rem;*/
+}
+.bloc_bas_page_gauche {
+
+}
+.bloc_bas_page_centre {
+
+}
+
+
+.bloc_footer {
+    padding : 1rem 0 1rem 0; 
+    color: #FFF;
+    font-size: 0.80rem;
+}
+.bloc_footer p {
+    font-size: 0.80rem;
+    padding: 0;
+    margin: 0;
+}
+.bloc_footer_gauche {
+
+}
+.bloc_footer_centre a {
+    color : #FFF;
+}
+.bloc_footer_droit {
+
+}
+
+@media only screen and (max-width: 64em) { 
+    .bloc_logo {
+        margin-bottom: 15px;
+    }
+}
+
+.findJob {
+    margin-top : 15px;
+    margin-bottom:10px;
+    font-family:'Comic Sans MS';
+    font-size:1.20rem;
+    font-style:normal;
+    font-weight:400;
+    color:#48afe4;
+}
+
+.breadcrumbs {
+    padding : 0;
+    border: none;
+    background-color: #FFF;
+}
+.breadcrumbs>* a, .breadcrumbs>* span {
+    font-size: 0.954rem;
+    text-transform: none;
+    /*font-style: italic;*/    
+}
+.breadcrumbs>* {
+    font-size: 0.90rem;
+}
+.breadcrumbs_active span {
+    color: #535159;
+}
+ul {
+    margin-bottom: 0;
+}
+ol, li {
+    font-size: 0.95rem
+}
+
+.orbit-container .orbit-slides-container img {
+    margin: auto;
+}
+
+ul.pagination {
+    margin-top: 3rem;
+}
+.arrow {
+    color: #999;
+}
+ul.pagination li a {
+    padding: 0 0.5rem 0 0.5rem
+}
+ul.pagination li {
+    padding: 0 0.5rem 0 0
+}
+.texte_navigation, .texte_navigation:hover, .texte_navigation:focus {
+    color: #FFF;
+}
+.navigation_bas {
+    margin-left: 0;
+}
+.latest_news {
+    font-size: 0.95rem
+}
+.tags_ {
+    background-color: #FFF;
+    border: 1px solid #ddd;
+    padding: 5px 10px 5px 10px;
+    margin: 5px 0 5px 0;
+    font-size: 0.80rem;
+    color: #424346;
+}
+.tags_:hover {
+    background-color: #008cba;
+    color: #FFF;
+}
+.bloc_tags {
+    display: inline-block;
+}
+.deconnexion_:hover {
+    color: #E94C4C;
+}
+.connexion_:hover {
+    color: #48afe4;
+}
+.inscription_:hover {
+    color: #80B404;
+}
+.white {
+    color: #FFF;
+    font-weight: bold
+}
+@media only screen and (max-width: 64em) { 
+    .bloc_reseaux_sociaux {
+        padding: 0;
+    }
+    .bloc_bas_page_droit {
+        margin-top: 20px;   
+    }
+}
+.deconnexion_ {
+    border: none; 
+    background-color: transparent; 
+    font-weight: bold; 
+    color: #FFF
+}
+
