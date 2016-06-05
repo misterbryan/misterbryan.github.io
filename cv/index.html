@@ -261,7 +261,18 @@
     <script type="text/javascript" src="librairies/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="librairies/bootstrap/js/bootstrap.min.js"></script>    
     <!-- custom js -->
-    <script type="text/javascript" src="assets/js/main.js"></script>            
+    <script type="text/javascript" src="assets/js/main.js"></script> 
+<script>
+if(navigator.serviceWorker) {
+
+navigator.serviceWorker.register("sw.js").then(function(){
+console.log('Registration works !!');
+}).catch(function(){
+console.log('Registration failed !!');
+});
+
+}
+</script>	
 </body>
 </html> 
 
